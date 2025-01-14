@@ -1,0 +1,620 @@
+<!doctype html>
+<html>
+<head>
+<meta charset='UTF-8'><meta name='viewport' content='width=device-width initial-scale=1'>
+<style>
+  @font-face {
+    font-family: '猫啃忘形圆';
+    src: local('猫啃忘形圆'), url('https://redqx.space/static/font/MaoKenWangXingYuan-2.ttf') format('truetype');
+  }
+</style>
+<link href='https://fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,700,400&subset=latin,latin-ext' rel='stylesheet' type='text/css' /><style type='text/css'>html {overflow-x: initial !important;}:root { --bg-color: #ffffff; --text-color: #333333; --select-text-bg-color: #B5D6FC; --select-text-font-color: auto; --monospace: "Lucida Console",Consolas,"Courier",monospace; --title-bar-height: 20px; }
+.mac-os-11 { --title-bar-height: 28px; }
+html { font-size: 14px; background-color: var(--bg-color); color: var(--text-color); font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; -webkit-font-smoothing: antialiased; }
+h1, h2, h3, h4, h5 { white-space: pre-wrap; }
+body { margin: 0px; padding: 0px; height: auto; inset: 0px; font-size: 1rem; line-height: 1.42857; overflow-x: hidden; background: inherit; }
+iframe { margin: auto; }
+a.url { word-break: break-all; }
+a:active, a:hover { outline: 0px; }
+.in-text-selection, ::selection { text-shadow: none; background: var(--select-text-bg-color); color: var(--select-text-font-color); }
+#write { margin: 0px auto; height: auto; width: inherit; word-break: normal; overflow-wrap: break-word; position: relative; white-space: normal; overflow-x: visible; padding-top: 36px; }
+#write.first-line-indent p { text-indent: 2em; }
+#write.first-line-indent li p, #write.first-line-indent p * { text-indent: 0px; }
+#write.first-line-indent li { margin-left: 2em; }
+.for-image #write { padding-left: 8px; padding-right: 8px; }
+body.typora-export { padding-left: 30px; padding-right: 30px; }
+.typora-export .footnote-line, .typora-export li, .typora-export p { white-space: pre-wrap; }
+.typora-export .task-list-item input { pointer-events: none; }
+@media screen and (max-width: 500px) {
+  body.typora-export { padding-left: 0px; padding-right: 0px; }
+  #write { padding-left: 20px; padding-right: 20px; }
+}
+#write li > figure:last-child { margin-bottom: 0.5rem; }
+#write ol, #write ul { position: relative; }
+img { max-width: 100%; vertical-align: middle; image-orientation: from-image; }
+button, input, select, textarea { color: inherit; font: inherit; }
+input[type="checkbox"], input[type="radio"] { line-height: normal; padding: 0px; }
+*, ::after, ::before { box-sizing: border-box; }
+#write h1, #write h2, #write h3, #write h4, #write h5, #write h6, #write p, #write pre { width: inherit; }
+#write h1, #write h2, #write h3, #write h4, #write h5, #write h6, #write p { position: relative; }
+p { line-height: inherit; }
+h1, h2, h3, h4, h5, h6 { break-after: avoid-page; break-inside: avoid; orphans: 4; }
+p { orphans: 4; }
+h1 { font-size: 2rem; }
+h2 { font-size: 1.8rem; }
+h3 { font-size: 1.6rem; }
+h4 { font-size: 1.4rem; }
+h5 { font-size: 1.2rem; }
+h6 { font-size: 1rem; }
+.md-math-block, .md-rawblock, h1, h2, h3, h4, h5, h6, p { margin-top: 1rem; margin-bottom: 1rem; }
+.hidden { display: none; }
+.md-blockmeta { color: rgb(204, 204, 204); font-weight: 700; font-style: italic; }
+a { cursor: pointer; }
+sup.md-footnote { padding: 2px 4px; background-color: rgba(238, 238, 238, 0.7); color: rgb(85, 85, 85); border-radius: 4px; cursor: pointer; }
+sup.md-footnote a, sup.md-footnote a:hover { color: inherit; text-transform: inherit; text-decoration: inherit; }
+#write input[type="checkbox"] { cursor: pointer; width: inherit; height: inherit; }
+figure { overflow-x: auto; margin: 1.2em 0px; max-width: calc(100% + 16px); padding: 0px; }
+figure > table { margin: 0px; }
+thead, tr { break-inside: avoid; break-after: auto; }
+thead { display: table-header-group; }
+table { border-collapse: collapse; border-spacing: 0px; width: 100%; overflow: auto; break-inside: auto; text-align: left; }
+table.md-table td { min-width: 32px; }
+.CodeMirror-gutters { border-right: 0px; background-color: inherit; }
+.CodeMirror-linenumber { user-select: none; }
+.CodeMirror { text-align: left; }
+.CodeMirror-placeholder { opacity: 0.3; }
+.CodeMirror pre { padding: 0px 4px; }
+.CodeMirror-lines { padding: 0px; }
+div.hr:focus { cursor: none; }
+#write pre { white-space: pre-wrap; }
+#write.fences-no-line-wrapping pre { white-space: pre; }
+#write pre.ty-contain-cm { white-space: normal; }
+.CodeMirror-gutters { margin-right: 4px; }
+.md-fences { font-size: 0.9rem; display: block; break-inside: avoid; text-align: left; overflow: visible; white-space: pre; background: inherit; position: relative !important; }
+.md-fences-adv-panel { width: 100%; margin-top: 10px; text-align: center; padding-top: 0px; padding-bottom: 8px; overflow-x: auto; }
+#write .md-fences.mock-cm { white-space: pre-wrap; }
+.md-fences.md-fences-with-lineno { padding-left: 0px; }
+#write.fences-no-line-wrapping .md-fences.mock-cm { white-space: pre; overflow-x: auto; }
+.md-fences.mock-cm.md-fences-with-lineno { padding-left: 8px; }
+.CodeMirror-line, twitterwidget { break-inside: avoid; }
+svg { break-inside: avoid; }
+.footnotes { opacity: 0.8; font-size: 0.9rem; margin-top: 1em; margin-bottom: 1em; }
+.footnotes + .footnotes { margin-top: 0px; }
+.md-reset { margin: 0px; padding: 0px; border: 0px; outline: 0px; vertical-align: top; background: 0px 0px; text-decoration: none; text-shadow: none; float: none; position: static; width: auto; height: auto; white-space: nowrap; cursor: inherit; -webkit-tap-highlight-color: transparent; line-height: normal; font-weight: 400; text-align: left; box-sizing: content-box; direction: ltr; }
+li div { padding-top: 0px; }
+blockquote { margin: 1rem 0px; }
+li .mathjax-block, li p { margin: 0.5rem 0px; }
+li blockquote { margin: 1rem 0px; }
+li { margin: 0px; position: relative; }
+blockquote > :last-child { margin-bottom: 0px; }
+blockquote > :first-child, li > :first-child { margin-top: 0px; }
+.footnotes-area { color: rgb(136, 136, 136); margin-top: 0.714rem; padding-bottom: 0.143rem; white-space: normal; }
+#write .footnote-line { white-space: pre-wrap; }
+@media print {
+  body, html { border: 1px solid transparent; height: 99%; break-after: avoid; break-before: avoid; font-variant-ligatures: no-common-ligatures; }
+  #write { margin-top: 0px; border-color: transparent !important; padding-top: 0px !important; padding-bottom: 0px !important; }
+  .typora-export * { -webkit-print-color-adjust: exact; }
+  .typora-export #write { break-after: avoid; }
+  .typora-export #write::after { height: 0px; }
+  .is-mac table { break-inside: avoid; }
+  #write > p:nth-child(1) { margin-top: 0px; }
+  .typora-export-show-outline .typora-export-sidebar { display: none; }
+  figure { overflow-x: visible; }
+}
+.footnote-line { margin-top: 0.714em; font-size: 0.7em; }
+a img, img a { cursor: pointer; }
+pre.md-meta-block { font-size: 0.8rem; min-height: 0.8rem; white-space: pre-wrap; background: rgb(204, 204, 204); display: block; overflow-x: hidden; }
+p > .md-image:only-child:not(.md-img-error) img, p > img:only-child { display: block; margin: auto; }
+#write.first-line-indent p > .md-image:only-child:not(.md-img-error) img { left: -2em; position: relative; }
+p > .md-image:only-child { display: inline-block; width: 100%; }
+#write .MathJax_Display { margin: 0.8em 0px 0px; }
+.md-math-block { width: 100%; }
+.md-math-block:not(:empty)::after { display: none; }
+.MathJax_ref { fill: currentcolor; }
+[contenteditable="true"]:active, [contenteditable="true"]:focus, [contenteditable="false"]:active, [contenteditable="false"]:focus { outline: 0px; box-shadow: none; }
+.md-task-list-item { position: relative; list-style-type: none; }
+.task-list-item.md-task-list-item { padding-left: 0px; }
+.md-task-list-item > input { position: absolute; top: 0px; left: 0px; margin-left: -1.2em; margin-top: calc(1em - 10px); border: none; }
+.math { font-size: 1rem; }
+.md-toc { min-height: 3.58rem; position: relative; font-size: 0.9rem; border-radius: 10px; }
+.md-toc-content { position: relative; margin-left: 0px; }
+.md-toc-content::after, .md-toc::after { display: none; }
+.md-toc-item { display: block; color: rgb(65, 131, 196); }
+.md-toc-item a { text-decoration: none; }
+.md-toc-inner:hover { text-decoration: underline; }
+.md-toc-inner { display: inline-block; cursor: pointer; }
+.md-toc-h1 .md-toc-inner { margin-left: 0px; font-weight: 700; }
+.md-toc-h2 .md-toc-inner { margin-left: 2em; }
+.md-toc-h3 .md-toc-inner { margin-left: 4em; }
+.md-toc-h4 .md-toc-inner { margin-left: 6em; }
+.md-toc-h5 .md-toc-inner { margin-left: 8em; }
+.md-toc-h6 .md-toc-inner { margin-left: 10em; }
+@media screen and (max-width: 48em) {
+  .md-toc-h3 .md-toc-inner { margin-left: 3.5em; }
+  .md-toc-h4 .md-toc-inner { margin-left: 5em; }
+  .md-toc-h5 .md-toc-inner { margin-left: 6.5em; }
+  .md-toc-h6 .md-toc-inner { margin-left: 8em; }
+}
+a.md-toc-inner { font-size: inherit; font-style: inherit; font-weight: inherit; line-height: inherit; }
+.footnote-line a:not(.reversefootnote) { color: inherit; }
+.reversefootnote { font-family: ui-monospace, sans-serif; }
+.md-attr { display: none; }
+.md-fn-count::after { content: "."; }
+code, pre, samp, tt { font-family: var(--monospace); }
+kbd { margin: 0px 0.1em; padding: 0.1em 0.6em; font-size: 0.8em; color: rgb(36, 39, 41); background: rgb(255, 255, 255); border: 1px solid rgb(173, 179, 185); border-radius: 3px; box-shadow: rgba(12, 13, 14, 0.2) 0px 1px 0px, rgb(255, 255, 255) 0px 0px 0px 2px inset; white-space: nowrap; vertical-align: middle; }
+.md-comment { color: rgb(162, 127, 3); opacity: 0.6; font-family: var(--monospace); }
+code { text-align: left; vertical-align: initial; }
+a.md-print-anchor { white-space: pre !important; border-width: initial !important; border-style: none !important; border-color: initial !important; display: inline-block !important; position: absolute !important; width: 1px !important; right: 0px !important; outline: 0px !important; background: 0px 0px !important; text-decoration: initial !important; text-shadow: initial !important; }
+.os-windows.monocolor-emoji .md-emoji { font-family: "Segoe UI Symbol", sans-serif; }
+.md-diagram-panel > svg { max-width: 100%; }
+[lang="flow"] svg, [lang="mermaid"] svg { max-width: 100%; height: auto; }
+[lang="mermaid"] .node text { font-size: 1rem; }
+table tr th { border-bottom: 0px; }
+video { max-width: 100%; display: block; margin: 0px auto; }
+iframe { max-width: 100%; width: 100%; border: none; }
+.highlight td, .highlight tr { border: 0px; }
+mark { background: rgb(255, 255, 0); color: rgb(0, 0, 0); }
+.md-html-inline .md-plain, .md-html-inline strong, mark .md-inline-math, mark strong { color: inherit; }
+.md-expand mark .md-meta { opacity: 0.3 !important; }
+mark .md-meta { color: rgb(0, 0, 0); }
+@media print {
+  .typora-export h1, .typora-export h2, .typora-export h3, .typora-export h4, .typora-export h5, .typora-export h6 { break-inside: avoid; }
+}
+.md-diagram-panel .messageText { stroke: none !important; }
+.md-diagram-panel .start-state { fill: var(--node-fill); }
+.md-diagram-panel .edgeLabel rect { opacity: 1 !important; }
+.md-fences.md-fences-math { font-size: 1em; }
+.md-fences-advanced:not(.md-focus) { padding: 0px; white-space: nowrap; border: 0px; }
+.md-fences-advanced:not(.md-focus) { background: inherit; }
+.typora-export-show-outline .typora-export-content { max-width: 1440px; margin: auto; display: flex; flex-direction: row; }
+.typora-export-sidebar { width: 300px; font-size: 0.8rem; margin-top: 80px; margin-right: 18px; }
+.typora-export-show-outline #write { --webkit-flex: 2; flex: 2 1 0%; }
+.typora-export-sidebar .outline-content { position: fixed; top: 0px; max-height: 100%; overflow: hidden auto; padding-bottom: 30px; padding-top: 60px; width: 300px; }
+@media screen and (max-width: 1024px) {
+  .typora-export-sidebar, .typora-export-sidebar .outline-content { width: 240px; }
+}
+@media screen and (max-width: 800px) {
+  .typora-export-sidebar { display: none; }
+}
+.outline-content li, .outline-content ul { margin-left: 0px; margin-right: 0px; padding-left: 0px; padding-right: 0px; list-style: none; overflow-wrap: anywhere; }
+.outline-content ul { margin-top: 0px; margin-bottom: 0px; }
+.outline-content strong { font-weight: 400; }
+.outline-expander { width: 1rem; height: 1.42857rem; position: relative; display: table-cell; vertical-align: middle; cursor: pointer; padding-left: 4px; }
+.outline-expander::before { content: ""; position: relative; font-family: Ionicons; display: inline-block; font-size: 8px; vertical-align: middle; }
+.outline-item { padding-top: 3px; padding-bottom: 3px; cursor: pointer; }
+.outline-expander:hover::before { content: ""; }
+.outline-h1 > .outline-item { padding-left: 0px; }
+.outline-h2 > .outline-item { padding-left: 1em; }
+.outline-h3 > .outline-item { padding-left: 2em; }
+.outline-h4 > .outline-item { padding-left: 3em; }
+.outline-h5 > .outline-item { padding-left: 4em; }
+.outline-h6 > .outline-item { padding-left: 5em; }
+.outline-label { cursor: pointer; display: table-cell; vertical-align: middle; text-decoration: none; color: inherit; }
+.outline-label:hover { text-decoration: underline; }
+.outline-item:hover { border-color: rgb(245, 245, 245); background-color: var(--item-hover-bg-color); }
+.outline-item:hover { margin-left: -28px; margin-right: -28px; border-left: 28px solid transparent; border-right: 28px solid transparent; }
+.outline-item-single .outline-expander::before, .outline-item-single .outline-expander:hover::before { display: none; }
+.outline-item-open > .outline-item > .outline-expander::before { content: ""; }
+.outline-children { display: none; }
+.info-panel-tab-wrapper { display: none; }
+.outline-item-open > .outline-children { display: block; }
+.typora-export .outline-item { padding-top: 1px; padding-bottom: 1px; }
+.typora-export .outline-item:hover { margin-right: -8px; border-right: 8px solid transparent; }
+.typora-export .outline-expander::before { content: "+"; font-family: inherit; top: -1px; }
+.typora-export .outline-expander:hover::before, .typora-export .outline-item-open > .outline-item > .outline-expander::before { content: "−"; }
+.typora-export-collapse-outline .outline-children { display: none; }
+.typora-export-collapse-outline .outline-item-open > .outline-children, .typora-export-no-collapse-outline .outline-children { display: block; }
+.typora-export-no-collapse-outline .outline-expander::before { content: "" !important; }
+.typora-export-show-outline .outline-item-active > .outline-item .outline-label { font-weight: 700; }
+.md-inline-math-container mjx-container { zoom: 0.95; }
+mjx-container { break-inside: avoid; }
+.md-alert.md-alert-note { border-left-color: rgb(9, 105, 218); }
+.md-alert.md-alert-important { border-left-color: rgb(130, 80, 223); }
+.md-alert.md-alert-warning { border-left-color: rgb(154, 103, 0); }
+.md-alert.md-alert-tip { border-left-color: rgb(31, 136, 61); }
+.md-alert.md-alert-caution { border-left-color: rgb(207, 34, 46); }
+.md-alert { padding: 0px 1em; margin-bottom: 16px; color: inherit; border-left: 0.25em solid rgb(0, 0, 0); }
+.md-alert-text-note { color: rgb(9, 105, 218); }
+.md-alert-text-important { color: rgb(130, 80, 223); }
+.md-alert-text-warning { color: rgb(154, 103, 0); }
+.md-alert-text-tip { color: rgb(31, 136, 61); }
+.md-alert-text-caution { color: rgb(207, 34, 46); }
+.md-alert-text { font-size: 0.9rem; font-weight: 700; }
+.md-alert-text svg { fill: currentcolor; position: relative; top: 0.125em; margin-right: 1ch; overflow: visible; }
+.md-alert-text-container::after { content: attr(data-text); text-transform: capitalize; pointer-events: none; margin-right: 1ch; }
+
+
+:root {
+    --side-bar-bg-color: #fafafa;
+    --control-text-color: #777;
+}
+
+@include-when-export url(https://fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,700,400&subset=latin,latin-ext);
+
+/* font */
+html {
+    font-size: 16px;
+    -webkit-font-smoothing: antialiased;
+}
+
+body {
+    font-family: '猫啃忘形圆',sans-serif; 
+    color: rgb(51, 51, 51);
+    line-height: 1.6;
+}
+
+#write {
+    max-width: 860px;
+  	margin: 0 auto;
+  	padding: 30px;
+    padding-bottom: 100px;
+}
+
+@media only screen and (min-width: 1400px) {
+	#write {
+		max-width: 1024px;
+	}
+}
+
+@media only screen and (min-width: 1800px) {
+	#write {
+		max-width: 1200px;
+	}
+}
+
+#write > ul:first-child,
+#write > ol:first-child{
+    margin-top: 30px;
+}
+
+a {
+    color: #4183C4;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    position: relative;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-weight: bold;
+    line-height: 1.4;
+    cursor: text;
+}
+h1:hover a.anchor,
+h2:hover a.anchor,
+h3:hover a.anchor,
+h4:hover a.anchor,
+h5:hover a.anchor,
+h6:hover a.anchor {
+    text-decoration: none;
+}
+h1 tt,
+h1 code {
+    font-size: inherit;
+}
+h2 tt,
+h2 code {
+    font-size: inherit;
+}
+h3 tt,
+h3 code {
+    font-size: inherit;
+}
+h4 tt,
+h4 code {
+    font-size: inherit;
+}
+h5 tt,
+h5 code {
+    font-size: inherit;
+}
+h6 tt,
+h6 code {
+    font-size: inherit;
+}
+h1 {
+    font-size: 2.25em;
+    line-height: 1.2;
+    border-bottom: 1px solid #eee;
+}
+h2 {
+    font-size: 1.75em;
+    line-height: 1.225;
+    border-bottom: 1px solid #eee;
+}
+
+/*@media print {
+    .typora-export h1,
+    .typora-export h2 {
+        border-bottom: none;
+        padding-bottom: initial;
+    }
+
+    .typora-export h1::after,
+    .typora-export h2::after {
+        content: "";
+        display: block;
+        height: 100px;
+        margin-top: -96px;
+        border-top: 1px solid #eee;
+    }
+}*/
+
+h3 {
+    font-size: 1.5em;
+    line-height: 1.43;
+}
+h4 {
+    font-size: 1.25em;
+}
+h5 {
+    font-size: 1em;
+}
+h6 {
+   font-size: 1em;
+    color: #777;
+}
+p,
+blockquote,
+ul,
+ol,
+dl,
+table{
+    margin: 0.8em 0;
+}
+li>ol,
+li>ul {
+    margin: 0 0;
+}
+hr {
+    height: 2px;
+    padding: 0;
+    margin: 16px 0;
+    background-color: #e7e7e7;
+    border: 0 none;
+    overflow: hidden;
+    box-sizing: content-box;
+}
+
+li p.first {
+    display: inline-block;
+}
+ul,
+ol {
+    padding-left: 30px;
+}
+ul:first-child,
+ol:first-child {
+    margin-top: 0;
+}
+ul:last-child,
+ol:last-child {
+    margin-bottom: 0;
+}
+blockquote {
+    border-left: 4px solid #dfe2e5;
+    padding: 0 15px;
+    color: #777777;
+}
+blockquote blockquote {
+    padding-right: 0;
+}
+table {
+    padding: 0;
+    word-break: initial;
+}
+table tr {
+    border: 1px solid #dfe2e5;
+    margin: 0;
+    padding: 0;
+}
+table tr:nth-child(2n),
+thead {
+    background-color: #f8f8f8;
+}
+table th {
+    font-weight: bold;
+    border: 1px solid #dfe2e5;
+    border-bottom: 0;
+    margin: 0;
+    padding: 6px 13px;
+}
+table td {
+    border: 1px solid #dfe2e5;
+    margin: 0;
+    padding: 6px 13px;
+}
+table th:first-child,
+table td:first-child {
+    margin-top: 0;
+}
+table th:last-child,
+table td:last-child {
+    margin-bottom: 0;
+}
+
+.CodeMirror-lines {
+    padding-left: 4px;
+}
+
+.code-tooltip {
+    box-shadow: 0 1px 1px 0 rgba(0,28,36,.3);
+    border-top: 1px solid #eef2f2;
+}
+
+.md-fences,
+code,
+tt {
+    border: 1px solid #e7eaed;
+    background-color: #f8f8f8;
+    border-radius: 3px;
+    padding: 0;
+    padding: 2px 4px 0px 4px;
+    font-size: 0.9em;
+}
+
+code {
+    background-color: #f3f4f4;
+    padding: 0 2px 0 2px;
+}
+
+.md-fences {
+    margin-bottom: 15px;
+    margin-top: 15px;
+    padding-top: 8px;
+    padding-bottom: 6px;
+}
+
+
+.md-task-list-item > input {
+  margin-left: -1.3em;
+}
+
+@media print {
+    html {
+        font-size: 13px;
+    }
+    pre {
+        page-break-inside: avoid;
+        word-wrap: break-word;
+    }
+}
+
+.md-fences {
+	background-color: #f8f8f8;
+}
+#write pre.md-meta-block {
+	padding: 1rem;
+    font-size: 85%;
+    line-height: 1.45;
+    background-color: #f7f7f7;
+    border: 0;
+    border-radius: 3px;
+    color: #777777;
+    margin-top: 0 !important;
+}
+
+.mathjax-block>.code-tooltip {
+	bottom: .375rem;
+}
+
+.md-mathjax-midline {
+    background: #fafafa;
+}
+
+#write>h3.md-focus:before{
+	left: -1.5625rem;
+	top: .375rem;
+}
+#write>h4.md-focus:before{
+	left: -1.5625rem;
+	top: .285714286rem;
+}
+#write>h5.md-focus:before{
+	left: -1.5625rem;
+	top: .285714286rem;
+}
+#write>h6.md-focus:before{
+	left: -1.5625rem;
+	top: .285714286rem;
+}
+.md-image>.md-meta {
+    /*border: 1px solid #ddd;*/
+    border-radius: 3px;
+    padding: 2px 0px 0px 4px;
+    font-size: 0.9em;
+    color: inherit;
+}
+
+.md-tag {
+    color: #a7a7a7;
+    opacity: 1;
+}
+
+.md-toc { 
+    margin-top:20px;
+    padding-bottom:20px;
+}
+
+.sidebar-tabs {
+    border-bottom: none;
+}
+
+#typora-quick-open {
+    border: 1px solid #ddd;
+    background-color: #f8f8f8;
+}
+
+#typora-quick-open-item {
+    background-color: #FAFAFA;
+    border-color: #FEFEFE #e5e5e5 #e5e5e5 #eee;
+    border-style: solid;
+    border-width: 1px;
+}
+
+/** focus mode */
+.on-focus-mode blockquote {
+    border-left-color: rgba(85, 85, 85, 0.12);
+}
+
+header, .context-menu, .megamenu-content, footer{
+    font-family: '猫啃忘形圆',sans-serif; 
+}
+
+.file-node-content:hover .file-node-icon,
+.file-node-content:hover .file-node-open-state{
+    visibility: visible;
+}
+
+.mac-seamless-mode #typora-sidebar {
+    background-color: #fafafa;
+    background-color: var(--side-bar-bg-color);
+}
+
+.mac-os #write{
+    caret-color: AccentColor;
+}
+
+.md-lang {
+    color: #b4654d;
+}
+
+/*.html-for-mac {
+    --item-hover-bg-color: #E6F0FE;
+}*/
+
+#md-notification .btn {
+    border: 0;
+}
+
+.dropdown-menu .divider {
+    border-color: #e5e5e5;
+    opacity: 0.4;
+}
+
+.ty-preferences .window-content {
+    background-color: #fafafa;
+}
+
+.ty-preferences .nav-group-item.active {
+    color: white;
+    background: #999;
+}
+
+.menu-item-container a.menu-style-btn {
+    background-color: #f5f8fa;
+    background-image: linear-gradient( 180deg , hsla(0, 0%, 100%, 0.8), hsla(0, 0%, 100%, 0)); 
+}
+
+
+
+</style><title>The One With the Sonogram at the End</title>
+</head>
+<body class='typora-export os-windows typora-export-show-outline typora-export-collapse-outline'><div class='typora-export-content'>
+<div class="typora-export-sidebar"><div class="outline-content"><li class="outline-item-wrapper outline-h1"><div class="outline-item"><span class="outline-expander"></span><a class="outline-label" href="#the-one-with-the-sonogram-at-the-end">The One With the Sonogram at the End</a></div><ul class="outline-children"><li class="outline-item-wrapper outline-h2 outline-item-single"><div class="outline-item"><span class="outline-expander"></span><a class="outline-label" href="#scene-01">[Scene 01]</a></div><ul class="outline-children"></ul></li><li class="outline-item-wrapper outline-h2 outline-item-single"><div class="outline-item"><span class="outline-expander"></span><a class="outline-label" href="#scene-02">[Scene 02]</a></div><ul class="outline-children"></ul></li><li class="outline-item-wrapper outline-h2 outline-item-single"><div class="outline-item"><span class="outline-expander"></span><a class="outline-label" href="#scene-03">[Scene 03]</a></div><ul class="outline-children"></ul></li><li class="outline-item-wrapper outline-h2 outline-item-single"><div class="outline-item"><span class="outline-expander"></span><a class="outline-label" href="#scene-04">[Scene 04]</a></div><ul class="outline-children"></ul></li><li class="outline-item-wrapper outline-h2 outline-item-single"><div class="outline-item"><span class="outline-expander"></span><a class="outline-label" href="#scene-05">[Scene 05]</a></div><ul class="outline-children"></ul></li><li class="outline-item-wrapper outline-h2 outline-item-single"><div class="outline-item"><span class="outline-expander"></span><a class="outline-label" href="#scene-06">[Scene 06]</a></div><ul class="outline-children"></ul></li><li class="outline-item-wrapper outline-h2 outline-item-single"><div class="outline-item"><span class="outline-expander"></span><a class="outline-label" href="#scene-07">[Scene 07]</a></div><ul class="outline-children"></ul></li><li class="outline-item-wrapper outline-h2 outline-item-single"><div class="outline-item"><span class="outline-expander"></span><a class="outline-label" href="#scene-08">[Scene 08]</a></div><ul class="outline-children"></ul></li><li class="outline-item-wrapper outline-h2 outline-item-single"><div class="outline-item"><span class="outline-expander"></span><a class="outline-label" href="#scene-09">[Scene 09]</a></div><ul class="outline-children"></ul></li><li class="outline-item-wrapper outline-h2 outline-item-single"><div class="outline-item"><span class="outline-expander"></span><a class="outline-label" href="#scene-10">[Scene 10]</a></div><ul class="outline-children"></ul></li><li class="outline-item-wrapper outline-h2 outline-item-single"><div class="outline-item"><span class="outline-expander"></span><a class="outline-label" href="#scene-11">[Scene 11]</a></div><ul class="outline-children"></ul></li></ul></li><li class="outline-item-wrapper outline-h1"><div class="outline-item"><span class="outline-expander"></span><a class="outline-label" href="#vocabulary">Vocabulary</a></div><ul class="outline-children"><li class="outline-item-wrapper outline-h2 outline-item-single"><div class="outline-item"><span class="outline-expander"></span><a class="outline-label" href="#words">words</a></div><ul class="outline-children"></ul></li><li class="outline-item-wrapper outline-h2 outline-item-single"><div class="outline-item"><span class="outline-expander"></span><a class="outline-label" href="#sentences">sentences</a></div><ul class="outline-children"></ul></li></ul></li></div></div><div id='write'  class=''><p>&nbsp;</p><h1 id='the-one-with-the-sonogram-at-the-end'><span>The One With the Sonogram at the End</span></h1><p>&nbsp;</p><h2 id='scene-01'><span>[Scene 01]</span></h2><p><span> Central Perk, everyone&#39;s there.</span></p><p><span>Monica: What you guys don&#39;t understand is, for us, kissing is as important as any part of it. </span></p><p><span>Joey: Yeah, right!.......Y&#39;serious? </span></p><p><span>Phoebe: Oh, yeah! </span></p><p><span>Rachel: Everything you need to know is in that first kiss. </span></p><p><span>Monica: Absolutely. </span></p><p><span>Chandler: Yeah, I think for us, kissing is pretty much like an opening act, y&#39;know? I mean it&#39;s like the stand-up comedian you have to sit through before Pink Floyd comes out. </span></p><p><span>Ross: Yeah, and-and it&#39;s not that we don&#39;t like the comedian, it&#39;s that-that... that&#39;s not why we bought the ticket. </span></p><p><span>Chandler: The problem is, though, after the concert&#39;s over, no matter how great the show was, you girls are always looking for the comedian again, y&#39;know? I mean, we&#39;re in the car, we&#39;re fighting traffic... basically just trying to stay awake. </span></p><p><span>Rachel: Yeah, well, word of advice: Bring back the comedian. Otherwise next time you&#39;re gonna find yourself sitting at home, listening to that album alone. </span></p><p><span>Joey: (pause)....Are we still talking about sex?</span></p><p><span>Opening Credits</span></p><h2 id='scene-02'><span>[Scene 02]</span></h2><p><span>: Museum of Prehistoric History, Ross and a co-worker (Marsha) are setting up an exhibit which includes some mannequins of cave people. </span></p><p><span>Ross: No, it&#39;s good, it is good, it&#39;s just that- mm- doesn&#39;t she seem a little angry? </span></p><p><span>Marsha: Well, she has issues. </span></p><p><span>Ross: Does she？</span></p><p><span>Marsha: He&#39;s out banging other women over the head with a club, while she sits at home trying to get the mastodon smell out of the carpet! </span></p><p><span>Ross: Marsha, these are cave people. Okay? They have issues like &#39;Gee, that glacier&#39;s getting kinda close.&#39; See? </span></p><p><span>Marsha: Speaking of issues, isn&#39;t that your ex-wife? </span></p><p><span>(Carol, Ross&#39;s ex-wife, has entered behind them and is standing outstide the exhibit.) </span></p><p><span>Ross: (trying to ignore her) No. No. </span></p><p><span>Marsha: Yes, it is. Carol! Hi! </span></p><p><span>Ross: Okay, okay, yes, it is. (waves) How about I&#39;ll, uh, catch up with you in the Ice Age. </span></p><p><span>(Marsha extis and Ross waves Carol into the exhibit.) </span></p><p><span>Ross:Hi. </span></p><p><span>Carol: So. </span></p><p><span>Ross: You look great. I, uh... I hate that. </span></p><p><span>Carol: Sorry. You look good too. </span></p><p><span>Ross: Ah, well, in here, anyone who... stands erect... So what&#39;s new? Still, uh... </span></p><p><span>Carol: A lesbian? </span></p><p><span>Ross: Well... you never know. How&#39;s, um.. how&#39;s the family? </span></p><p><span>Carol: Marty&#39;s still totally paranoid. Oh, and, uh- </span></p><p><span>Ross: Why- why are you here, Carol? </span></p><p><span>Carol: I&#39;m pregnant. </span></p><p><span>Ross: Pregnant?! </span></p><h2 id='scene-03'><span>[Scene 03]</span></h2><p><span>: Monica and Rachel&#39;s, Chandler, Joey, Phoebe, and Monica are watching Three&#39;s Company.</span></p><p><span>Chandler: Oh, I think this is the episode of Three&#39;s Company where there&#39;s some kind of misunderstanding. </span></p><p><span>Phoebe:...Then I&#39;ve already seen this one! (Turns off the TV.) </span></p><p><span>Monica: (taking a drink from Joey) Are you through with that? </span></p><p><span>Joey: Yeah, sorry, the swallowing slowed me down. </span></p><p><span>Monica: Whose little ball of paper is this?! </span></p><p><span>Chandler: Oh, uh, that would be mine. See, I wrote a note to myself, and then I realised I didn&#39;t need it, so I balled it up and... (sees that Monica is glaring at him) ...now I wish I was dead. </span></p><p><span>(Monica starts to fluff a pillow.) </span></p><p><span>Phoebe: She&#39;s already fluffed that pillow... Monica, you know, you&#39;ve already fluffed that- (Monica glares at her.) -but, it&#39;s fine! </span></p><p><span>Monica: Look , I&#39;m sorry, guys, I just don&#39;t wanna give them any more ammunition than they already have. </span></p><p><span>Chandler: Yes, and we all know how cruel a parent can be about the flatness of a child&#39;s pillow. </span></p><p><span>Phoebe: Monica- Hi! Um, Monica, you&#39;re scaring me. I mean, you&#39;re like, you&#39;re like all chaotic and twirly. And not-not in a good way. </span></p><p><span>Joey: Yeah, calm down. You don&#39;t see Ross getting all chaotic and twirly every time they come. </span></p><p><span>Monica: That&#39;s because as far as my parents are concerned, Ross can do no wrong. Y&#39;see, he&#39;s the Prince. Apparently they had some big ceremony before I was born. </span></p><p><span>Chandler: (looking out the window) Ew, ew, ew, ew ew ew ew ew! </span></p><p><span>Monica: What? </span></p><p><span>Chandler: Ugly Naked Guy got a Thighmaster! </span></p><p><span>All: Eeaagh! </span></p><p><span>(Rachel enters from her room.) </span></p><p><span>Rachel: Has anybody seen my engagement ring? </span></p><p><span>Phoebe: Yeah, it&#39;s beautiful. </span></p><p><span>Rachel: Oh God, oh God, oh God oh God oh God oh God.... (Starts to look under the couch cushions.) </span></p><p><span>Phoebe: No, look, don&#39;t touch that! </span></p><p><span>Rachel: Oh, like I wasn&#39;t dreading tomorrow enough, having to give it back to him... &#39;Hi Barry! Remember me? I&#39;m the girl in the veil who stomped on your heart in front of your entire family!&#39; Oh God and now I&#39;m gonna have to return the ring, without the ring, which makes it so much harder... </span></p><p><span>Monica: Easy Rach, we&#39;ll find it. (To all) Won&#39;t we! </span></p><p><span>Chandler and Joey: Oh! Yeah!</span></p><p><span>Joey: Alright, when&#39;d&#39;ya have it on last?</span></p><p><span>Phoebe: Doy! Probably right before she lost it! </span></p><p><span>Chandler: You don&#39;t get a lot of &#39;doy&#39; these days... </span></p><p><span>Rachel: I know I had it this morning, and I know I had it when I was in the kitchen with... </span></p><p><span>Chandler: ...Dinah? </span></p><p><span>Rachel: (looks at the lasagne and realizes something) Ohhhhh, don&#39;t be mad... </span></p><p><span>Monica: You didn&#39;t. </span></p><p><span>Rachel: Oh, I am sorry... </span></p><p><span>Monica: I gave you one job! (Starts to examin the lasagne through the bottom of the glass pan.) </span></p><p><span>Rachel: Oh, but look how straight those noodles are! </span></p><p><span>Chandler: Now, Monica, you know that&#39;s not how you look for an engagement ring in a lasagne... </span></p><p><span>Monica: (puts down the lasagne) I just... can&#39;t do it. </span></p><p><span>Chandler: Boys? We&#39;re going in. </span></p><p><span>(Chandler, Joey, and Phoebe start to pick through the lasagne as there&#39;s a knock on the door which Monica answers.) </span></p><p><span>Ross: (standing outside the door).....Hi. </span></p><p><span>Monica: Wow. That is not a happy hi. </span></p><p><span>Ross: Carol&#39;s pregnant. </span></p><p><span>Phoebe: (while everyone else is stunned) Ooh! I found it! </span></p><p><span>Monica: W-w-wh-... wha-... w-w-w-... </span></p><p><span>Ross: Yeah. Do that for another two hours, you might be where I am right about now. (He enters.) </span></p><p><span>Chandler: Kinda puts that whole pillow thing in perspective, huh, Mon? </span></p><p><span>Rachel: Well now, how-how do you fit into this whole thing? </span></p><p><span>Ross: Well, Carol says she and Susan want me to be involved, but if I&#39;m not comfortable with it, I don&#39;t have to be involved basically it&#39;s entirely up to me. </span></p><p><span>Phoebe: She is so great! I miss her. </span></p><p><span>Monica: What does she mean by &#39;involved&#39;? </span></p><p><span>Chandler: I mean presumably, the biggest part of your job is done. </span></p><p><span>Ross: Anyway, they want me to go down to this- sonogram thing with them tomorrow. </span></p><p><span>Rachel: So what are you gonna do? </span></p><p><span>Ross: I have no idea. No matter what I do, though, I&#39;m still gonna be a father. </span></p><p><span>(Joey starts to eat the rest of the lasagne and everyone turns and stares at him.) </span></p><p><span>Joey: .....Well, this is still ruined, right?</span></p><h2 id='scene-04'><span>[Scene 04]</span></h2><p><span>, Monica and Rachel&#39;s, Monica and Ross are pouring wine for their parents. </span></p><p><span>Mrs. Geller: Oh, Martha Ludwin&#39;s daughter is gonna call you. (Tastes a snack) Mmm! What&#39;s that curry taste? </span></p><p><span>Monica: Curry. </span></p><p><span>Mrs. Geller: Mmmm! </span></p><p><span>Ross: I- I think they&#39;re great! I, I really do. </span></p><p><span>Mr. Geller: (To Ross) Do you remember the Ludwins? The big one had a thing for you, didn&#39;t she? </span></p><p><span>Mrs. Geller: They all had a thing for him. </span></p><p><span>Ross: Aw, Mom... </span></p><p><span>Monica: I&#39;m sorry, why is this girl going to call me? </span></p><p><span>Mrs. Geller: Oh, she just graduated, and she wants to be something in cooking, or food, or.... I don&#39;t know. Anyway, I told her you had a restaurant- </span></p><p><span>Monica: No Mom, I don&#39;t have a restaurant, I work in a restaurant. </span></p><p><span>Mrs. Geller: Well, they don&#39;t have to know that... (She starts to fluff the same pillow Monica fluffed multiple times earlier.) </span></p><p><span>Monica: Ross, could you come and help me with the spaghetti, please? </span></p><p><span>Ross: Yeah. (They go to the kitchen.) </span></p><p><span>Mrs. Geller: Oh, we&#39;re having spaghetti! That&#39;s.... easy. </span></p><p>&nbsp;</p><p><span>Monica: I know this is going to sound unbelievably selfish, but, were you planning on bringing up the whole baby/lesbian thing? Because I think it might take some of the heat off me. </span></p><p><span>[Time Lapse, everyone is now eating.] </span></p><p><span>Mrs. Geller: What that Rachel did to her life.... We ran into her parents at the club, they were not playing very well. </span></p><p><span>Mr. Geller: I&#39;m not gonna tell you what they spent on that wedding... but forty thousand dollars is a lot of money! </span></p><p>&nbsp;</p><p>&nbsp;</p><p><span>Mrs. Geller: Well, at least she had the chance to leave a man at the altar... </span></p><p><span>Monica: What&#39;s that supposed to mean? </span></p><p><span>Mrs. Geller: Nothing! It&#39;s an expression. </span></p><p><span>Monica: No it&#39;s not. </span></p><p><span>Mr. Geller: Don&#39;t listen to your mother. You&#39;re independent, and you always have been! Even when you were a kid... and you were chubby, and you had no friends, you were just fine! And you would read alone in your room, and your puzzles... </span></p><p><span>[Time Lapse.]</span></p><p><span>Mr. Geller: Look, there are people like Ross who need to shoot for the stars, with his museum, and his papers getting published. Other people are satisfied with staying where they are- I&#39;m telling you, these are the people who never get cancer. </span></p><p><span>[Time Lapse.] </span></p><p><span>Mr. Geller: ...And I read about these women trying to have it all, and I thank God &#39;Our Little Harmonica&#39; doesn&#39;t seem to have that problem. </span></p><p><span>Monica: (trying desperately to change the subject) So, Ross, what&#39;s going on with you? Any stories? (Digs her elbow into his hand.) No news, no little anecdotes to share with the folks? </span></p><p><span>Ross: (pulls his hand away) Okay! Okay. (To his parents) Look, I, uh- I realise you guys have been wondering what exactly happened between Carol and me, and, so, well, here&#39;s the deal. Carol&#39;s a lesbian. She&#39;s living with a woman named Susan. She&#39;s pregnant with my child, and she and Susan are going to raise the baby. </span></p><p><span>(Stunned silence ensues.) </span></p><p><span>Mrs. Geller: (To Monica) And you knew about this?! </span></p><p><span>Commercial Break</span></p><h2 id='scene-05'><span>[Scene 05]</span></h2><p><span>: Central Park, everyone&#39;s there. </span></p><p><span>Joey: Your folks are really that bad, huh? </span></p><p><span>Ross: Well, y&#39;know, these people are pros. They know what they&#39;re doing, they take their time, they get the job done. </span></p><p><span>Monica: Boy, I know they say you can&#39;t change your parents,... boy, if you could- (To Ross) -I&#39;d want yours. </span></p><p><span>Ross: Must pee. (Goes to pee.) </span></p><p><span>Phoebe: Y&#39;know, it&#39;s even worse when you&#39;re twins. </span></p><p><span>Rachel: You&#39;re twins? </span></p><p><span>Phoebe: Yeah. We don&#39;t speak. She&#39;s like this high-powered, driven career type. </span></p><p><span>Chandler: What does she do? </span></p><p><span>Phoebe: She&#39;s a waitress. </span></p><p>&nbsp;</p><p><span>Rachel: All right, you guys, I kinda gotta clean up now. (They all start to leave.) </span></p><p><span>Monica: Chandler, you&#39;re an only child, right? You don&#39;t have any of this. </span></p><p><span>Chandler: Well, no, although I did have an imaginary friend, who... my parents actually preferred. </span></p><p><span>Rachel: The lights, please..</span></p><p><span>(Joey turns off the lights, and they all leave as Rachel starts to clean up.  Ross enters from the bathroom.) </span></p><p><span>Ross: ...How long was I in there? </span></p><p><span>Rachel: I&#39;m just cleaning up. </span></p><p><span>Ross: D&#39;ya.. uh.. Do you need any help? </span></p><p><span>Rachel: Uh.. okay, sure! Thanks! (She hands him the broom and sits down.) </span></p><p><span>Ross: Anyway.. um.. (Starts to sweep.) So, you- uh- you nervous about Barry tomorrow? </span></p><p><span>Rachel: Oh.. a little.. </span></p><p><span>Ross: Mm-hmm.. </span></p><p><span>Rachel: A lot. </span></p><p><span>Ross: Mm. </span></p><p><span>Rachel: So, got any advice? Y&#39;know, as someone who&#39;s recently been- dumped? </span></p><p><span>Ross: Well, you may wanna steer clear of the word &#39;dumped&#39;. Chances are he&#39;s gonna be this, this broken shell of a man, y&#39;know, so you should try not to look too terrific, I know it&#39;ll be hard. Or, y&#39;know, uh, hey!, I&#39;ll go down there, and I&#39;ll give Barry back his ring, and you can go with Carol and Susan to the OB/GYN... </span></p><p><span>Rachel: Oh, you&#39;ve got Carol tomorrow.. When did it get so complicated? </span></p><p><span>Ross: Got me. </span></p><p><span>Rachel: Remember when we were in high school together? </span></p><p><span>Ross: Yeah. </span></p><p><span>Rachel: I mean, didn&#39;t you think you were just gonna meet somone, fall in love- and that&#39;d be it? (Ross gazes at her.) ..Ross? </span></p><p><span>Ross: Yes, yes! </span></p><p><span>Rachel: Oh! Man, I never thought I&#39;d be here.. (She leans back onto his hand.) </span></p><p><span>Ross: Me either... (He pulls up a stool so that he doesn&#39;t have to move his hand.) </span></p><h2 id='scene-06'><span>[Scene 06]</span></h2><p><span>: Carol&#39;s OB/GYN, Carol is waiting. </span></p><p><span>Ross: (entering) Sorry I&#39;m late, I was stuck at work. There was this big dinosaur.. thing.. anyway. </span></p><p><span>(Susan enters holding a drink.) </span></p><p><span>Susan: Hi. </span></p><p><span>Carol: Ross, you remember Susan. </span></p><p><span>Ross: How could I forget? </span></p><p><span>Susan: Ross. </span></p><p><span>Ross: (they shake hands) Hello, Susan. (To Carol) Good shake. Good shake. So, uh, we&#39;re just waiting for...? </span></p><p><span>Carol: Dr. Oberman. </span></p><p><span>Ross: ..Dr. Oberman. Okay. And is he- </span></p><p><span>Susan: She. </span></p><p><span>Ross: -she, of course, she- uh- familiar with our.. special situation? </span></p><p><span>Carol: Yes, and she&#39;s very supportive. </span></p><p><span>Ross: Okay, that&#39;s great. (Susan gives her drink to Carol.) No, I&#39;m- Oh.  </span></p><p><span>Carol: Thanks. </span></p><p><span>Ross: (picks up a surgical instrament and mimes a duck with it) Quack, quack.. </span></p><p><span>Carol: Ross? That opens my cervix. (He drops it in horror.) </span></p><h2 id='scene-07'><span>[Scene 07]</span></h2><p><span> Barry&#39;s office, Barry is working on patient, Robbie, as Rachel enters. </span></p><p><span>Rachel: Barry? </span></p><p><span>Barry: Come in. </span></p><p><span>Rachel: (hesitates) Are you sure? </span></p><p><span>Barry: Yeah! It&#39;s fine, it&#39;s fine. Robbie&#39;s gonna be here for hours. </span></p><p><span>Robbie: Huh?! </span></p><p><span>Barry: So, how ya doin? </span></p><p><span>Rachel: I&#39;m- uh- I&#39;m okay... You look great! </span></p><p><span>Barry: Yeah, well.. </span></p><p><span>Bernice: (over intercom) Dr. Farber, Jason Greenstein&#39;s gagging. </span></p><p><span>Barry: (answering the intercom) Be right there. (To Robbie and Rachel) Be back in a sec. </span></p><p><span>(As Barry exits Robbie stares at Rachel.) </span></p><p><span>Rachel: I dumped him. </span></p><p><span>Robbie: Okay. </span></p><h2 id='scene-08'><span>[Scene 08]</span></h2><p><span>: Carol&#39;s OB/GYN, they&#39;re talking about how this is going to work. </span></p><p><span>Ross: So, um- so how&#39;s this, uh, how&#39;s this gonna work? Y&#39;know, with us? Y&#39;know, when, like, important decisions have to be made? </span></p><p><span>Carol: Give me a &#39;for instance&#39;. </span></p><p><span>Ross: Well, uh, uh, I don&#39;t know, okay, okay, how about with the, uh, with the baby&#39;s name? </span></p><p><span>Carol: Marlon- </span></p><p><span>Ross: Marlon?! </span></p><p><span>Carol: -if it&#39;s a boy, Minnie if it&#39;s a girl. </span></p><p><span>Ross: ...As in Mouse? </span></p><p><span>Carol: As in my grandmother. </span></p><p><span>Ross: Still, you- you say Minnie, you hear Mouse. Um, how about, um.. how about Julia? </span></p><p><span>Carol: Julia.. </span></p><p><span>Susan: We agreed on Minnie. </span></p><p><span>Ross: &#39;S&#39;funny, um, uh, we agreed we&#39;d spend the rest of our lives together. Things change, roll with the punches. I believe Julia&#39;s on the table..? </span></p><h2 id='scene-09'><span>[Scene 09]</span></h2><p><span>: Barry&#39;s office, Rachel is doing her makeup in the mirror on Barry&#39;s lamp as Barry enters. </span></p><p><span>Barry: Sorry about that. So. What have you been up to? </span></p><p><span>Rachel: Oh, not much. I-I got a job. </span></p><p><span>Barry: Oh, that&#39;s great. </span></p><p><span>Rachel: Why are- why are you so tanned? </span></p><p><span>Barry: Oh, I, uh- I went to Aruba. </span></p><p><span>Rachel: Oh no. You went on our honeymoon alone? </span></p><p><span>Barry: No. I went with, uh.. Now, this may hurt. </span></p><p><span>Robbie: Me?! </span></p><p><span>Barry: No! (To Rachel) I went with Mindy. </span></p><p>&nbsp;</p><p>&nbsp;</p><p><span>Rachel: Mindy?! My maid of honour, Mindy?! </span></p><p><span>Barry: Yeah, well, uh, we&#39;re kind of a thing now. </span></p><p><span>Rachel: Oh! Well, um.. (Grabs his forehand) You&#39;ve got plugs! </span></p><p><span>Barry: Careful! They haven&#39;t quite taken yet. </span></p><p>&nbsp;</p><p><span>Rachel: And you&#39;ve got lenses! But you hate sticking your finger in your eye! </span></p><p><span>Barry: Not for her. Listen, I really wanted to thank you. </span></p><p><span>Rachel: Okay.. </span></p><p><span>Barry: See, about a month ago, I wanted to hurt you. More than I&#39;ve ever wanted to hurt anyone in my life. And I&#39;m an orthodontist. </span></p><p><span>Rachel: Wow. </span></p><p><span>Barry: You know, you were right? I mean, I thought we were happy. We weren&#39;t happy. But with Mindy, now I&#39;m happy. Spit. </span></p><p>&nbsp;</p><p>&nbsp;</p><p><span>Rachel: What? </span></p><p><span>Robbie: Me. (Spits.) </span></p><p><span>Rachel: Anyway, um, (Gets the ring out of her purse.) I guess this belongs to you. And thank you for giving it to me. </span></p><p><span>Barry: Well, thank you for giving it back. </span></p><p><span>(Barry and Rachel look at each other.) </span></p><p><span>Robbie: Hello?! </span></p><h2 id='scene-10'><span>[Scene 10]</span></h2><p><span>: Carol&#39;s OB/GYN, they&#39;re still arguing about what to name the baby. </span></p><p><span>Susan: Oh, please! What&#39;s wrong with Helen? </span></p><p><span>Ross: Helen Geller? I don&#39;t think so. </span></p><p><span>Carol: Hello? It&#39;s not gonna be Helen Geller. </span></p><p><span>Ross: Thank you! </span></p><p><span>Carol: No, I mean it&#39;s not Geller. </span></p><p><span>Ross: What, it&#39;s gonna be Helen Willick? </span></p><p><span>Carol: No, actually, um, we talked about Helen Willick-Bunch. </span></p><p><span>Ross: Well, wait a minute, wha- why is she in the title? </span></p><p><span>Susan: It&#39;s my baby too. </span></p><p><span>Ross: Oh, &#39;s&#39;funny, really? Um, I don&#39;t remember you making any sperm. </span></p><p><span>Susan: Yeah, and we all know what a challenge that is! </span></p><p><span>Carol: All right, you two, stop it! </span></p><p>&nbsp;</p><p><span>Ross: No no no, she gets a credit, hey, I&#39;m in there too. </span></p><p><span>Carol: Ross. You&#39;re not actually suggesting Helen Willick-Bunch-Geller? &#39;Cause I think that borders on child abuse. </span></p><p><span>Ross: Of course not, I&#39;m... suggesting Geller-Willick-Bunch. </span></p><p><span>Susan: Oh, no, nonononono, you see what he&#39;s doing? He knows no-one&#39;s gonna say all those names, so they&#39;ll wind up calling her Geller, then he gets his way! </span></p><p>&nbsp;</p><p><span>Ross: My way?! You-you think this is my way? Believe me, of all the ways I ever imagined this moment in my life being, this is not my way- y&#39;know what? Uh, um, this is too hard. I&#39;m not, I can&#39;t do- </span></p><p><span>Dr. Oberman: (entering) Knock knock!How are we today? Any nausea? </span></p><p><span>All: Yeah. Yeah. A little. </span></p><p><span>Dr. Oberman: Well, I was just wondering about the mother-to-be, but.. thanks for sharing. (To Carol) Uh, lie back.. </span></p><p><span>Ross: You- uh- y&#39;know what, I&#39;m gonna go. I don&#39;t- I don&#39;t think I can be involved in this particular thing right now. </span></p><p><span>(He turns to go, but the sound of the sonogram catches hes ear.  He returns and stares at it.)</span></p><p><span>Ross: Oh my God. </span></p><p><span>Susan: Look at that. </span></p><p><span>Carol: I know. </span></p><p><span>Closing Credits</span></p><h2 id='scene-11'><span>[Scene 11]</span></h2><p><span>: Monica and Rachel&#39;s apartment, everyone is watching the tape of the sonogram.   Rachel is on the phone.</span></p><p><span>Ross: Well? Isn&#39;t that amazing? </span></p><p><span>Joey: What are we supposed to be seeing here? </span></p><p><span>Chandler: I don’t know, but.. I think it&#39;s about to attack the Enterprise. </span></p><p><span>Phoebe: You know, if you tilt your head to the left, and relax your eyes, it kinda looks like an old potato. </span></p><p><span>Ross: Then don&#39;t do that, alright? </span></p><p><span>Phoebe: Okay! </span></p><p><span>Ross: (walks over to where Monica is standing) Monica. What do you think? </span></p><p><span>Monica: (welling up) Mm-hmm. </span></p><p><span>Ross: Wh- are you welling up? </span></p><p><span>Monica: No. </span></p><p><span>Ross: You are, you&#39;re welling up. </span></p><p><span>Monica: Am not! </span></p><p><span>Ross: You&#39;re gonna be an aunt. </span></p><p><span>Monica: (pushes him and starts to cry) Oh shut up! </span></p><p><span>Rachel: (on phone) Hi, Mindy. Hi, it-it&#39;s Rachel. Yeah, I&#39;m fine. I-I saw Barry today. Oh, yeah, yeah he-he told me. No, no, it&#39;s okay. I hope you two are very happy, I really do. Oh, oh, and Mind, y&#39;know, if-if everything works out, and you guys end up getting married and having kids- and everything- I just hope they have his old hairline and your old nose. (Slams the phone down.) (To everyone) Okay, I know it was a cheap shot, but I feel so much better now.</span></p><p>&nbsp;</p><h1 id='vocabulary'><span>Vocabulary</span></h1><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><h2 id='words'><span>words</span></h2><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><h2 id='sentences'><span>sentences</span></h2><p>&nbsp;</p></div></div>
+
+<script>(function(){function e(e,n,i){document.addEventListener(e,function(e){if(!e.defaultPrevented)for(var t=e.target;t&&t!=this;t=t.parentNode)if(t.matches(n)){!1===i.call(t,e)&&(e.preventDefault(),e.stopPropagation());break}},!1)}var t=document.body.parentElement,i=[],r=null,o=document.body.classList.contains("typora-export-collapse-outline");function a(){return t.scrollTop}e("click",".outline-expander",function(e){var t=this.closest(".outline-item-wrapper").classList;return t.contains("outline-item-open")?t.remove("outline-item-open"):t.add("outline-item-open"),u(),!1}),e("click",".outline-item",function(e){var t=this.querySelector(".outline-label");location.hash="#"+t.getAttribute("href"),o&&((t=this.closest(".outline-item-wrapper").classList).contains("outline-item-open")||t.add("outline-item-open"),d(),t.add("outline-item-active"))});function s(){var e=a();r=null;for(var t=0;t<i.length&&i[t][1]-e<60;t++)r=i[t]}function n(){c=setTimeout(function(){var n;i=[],n=a(),document.querySelector("#write").querySelectorAll("h1, h2, h3, h4, h5, h6").forEach(e=>{var t=e.getAttribute("id");i.push([t,n+e.getBoundingClientRect().y])}),s(),u()},300)}var l,c,d=function(){document.querySelectorAll(".outline-item-active").forEach(e=>e.classList.remove("outline-item-active")),document.querySelectorAll(".outline-item-single.outline-item-open").forEach(e=>e.classList.remove("outline-item-open"))},u=function(){if(r&&(d(),t=document.querySelector('.outline-label[href="#'+(CSS.escape?CSS.escape(r[0]):r[0])+'"]')))if(o){var e=t.closest(".outline-item-open>ul>.outline-item-wrapper");if(e)e.classList.add("outline-item-active");else{for(var t,n=(t=t.closest(".outline-item-wrapper")).parentElement.closest(".outline-item-wrapper");n;)n=(t=n).parentElement.closest(".outline-item-wrapper");t.classList.add("outline-item-active")}}else t.closest(".outline-item-wrapper").classList.add("outline-item-active")};window.addEventListener("scroll",function(e){l&&clearTimeout(l),l=setTimeout(function(){s(),u()},300)});window.addEventListener("resize",function(e){c&&clearTimeout(c),n()}),n()})();</script></body>
+</html>

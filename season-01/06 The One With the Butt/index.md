@@ -8,7 +8,9 @@ title: The One With the Butt
 
 
 
-[Scene: A Theater, the gang is in the audience wating for a play of Joey's to start.]
+## [Scene: 01]
+
+- A Theater, the gang is in the audience wating for a play of Joey's to start.
 
 **Rachel:** (reading the program) Ooh! Look! Look! Look! Look, there's Joey's picture! This is so exciting!
 
@@ -43,7 +45,9 @@ Or play with, or simply let hang...
 
 Opening Credits
 
-[Scene: The Theater, the play has ended and everyone is **applauding**. As soon as the **cast** leaves, the **gang** all **groan** and sit down heavily.]
+## [Scene: 02]
+
+- The Theater, the play has ended and everyone is **applauding**. As soon as the **cast** leaves, the **gang** all **groan** and sit down heavily.
 
 > applaud [əˈplɔːd]:  v.鼓掌；赞赏；称赞；赞许
 >
@@ -151,7 +155,9 @@ Opening Credits
 
 **Phoebe:** Based on *this play*? ...Based on this play!
 
-[Scene: Central Perk, everyone else is there as Chandler enters.]
+## [Scene: 03]
+
+Central Perk, everyone else is there as Chandler enters.
 
 **Chandler**: Hey, kids. 
 
@@ -289,7 +295,9 @@ Opening Credits
 >
 > forth adv.向前, 向前方；
 
-[Scene: Monica and Rachel's, Rachel is there as enter except Joey enter.]
+## [Scene: 04]
+
+Monica and Rachel's, Rachel is there as enter except Joey enter.
 
 **Rachel:** Tah-daaah!
 
@@ -433,7 +441,9 @@ Opening Credits
 
 Commercial Break
 
-[Scene: Monica and Rachel's, the next morning, Monica is getting the door.]
+## [Scene: 05]
+
+Monica and Rachel's, the next morning, Monica is getting the door.
 
 **Monica:** Alright, alright, alright... 
 
@@ -493,7 +503,9 @@ Commercial Break
 
 (She opens the door and he leaves.)
 
-[Scene: A Film Set, Joey is entering for his scene.]
+## [Scene: 06]
+
+A Film Set, Joey is entering for his scene.
 
 **Director:** (on phone)...Dammit, hire the girl! (He hangs up the phone.) Okay, everybody ready?
 
@@ -531,7 +543,9 @@ Joey: Me?
 
 **Joey:** I was going for quiet **desperation**. But if you have to ask...
 
-[Scene: Chandler and Joey's, Aurora and Chandler are in bed in Chandler's room.]
+## [Scene: 07]
+
+Chandler and Joey's, Aurora and Chandler are in bed in Chandler's room.
 
 **Chandler**: God, I love these fingers...
 
@@ -623,7 +637,9 @@ Chandler: You.
 >
 > fall back 后退，退却
 
-[Scene: Monica and Rachel's, Ross is trying to comfort Chandler. Joey is **absent**.]
+## [Scene: 08]
+
+Monica and Rachel's, Ross is trying to comfort Chandler. Joey is **absent**.
 
 > absent adj.心不在焉的,缺席的;不在场的;
 
@@ -663,7 +679,6 @@ Chandler: You.
 
 >  crappy [/ˈkræpi] adj. 蹩脚的没价值的讨厌的;
 >
->  
 
 **Monica:** Maybe this wasn't your shot.
 
@@ -701,7 +716,9 @@ Chandler: You.
 
 Closing Credits
 
-[Scene: Monica's Bedroom, she's lying in bed wide awake.]
+## [Scene: 09]
+
+Monica's Bedroom, she's lying in bed wide awake.
 
 **Monica:** (hums for a while, then gives up, and in her head) If it bothers you that much, just go out and get the shoes. No. Don't do this. This is stupid! I don't have to prove anything, I'm gonna go get them...But then everyone will know. Unless I get them, and then wake up really early and put them back! ...I need help! (She buries her head in her pillow.) 
 
@@ -709,42 +726,116 @@ End
 
 # Vocabulary
 
-spot someone/something ：一下子注意到某人或某物
 
-doom ：这个词其实是带有一定宗教色彩的。主要就是`末日`的意思
 
-be about to ：意为即将..
+## words
 
-peel off ：意为剥下，剥开
+1. spot someone/something 意为一下子注意到某人或某物
+2. impending [ɪmˈpendɪŋ]: adj.即将发生的；迫在眉睫的
+3. doom [duːm] : n.厄运；毁灭；死亡；劫数 .这个词其实是带有一定宗教色彩
+4. exclamation  `[ekskləˈmeɪʃn]`: 感叹；感叹词；感叹语
+5. exclamation point : 感叹号；惊叹号；叹号
+6. dim [dɪm]: v.变暗。
+7. applaud [əˈplɔːd]:  v.鼓掌；赞赏；称赞；赞许
+8. case : n.一出戏的全部演员。
+9. groan [ɡroʊn]: v.呻吟；叹息；
+10. gang [ɡæŋ]: n.一群团伙
+11. violate [ˈvaɪəleɪt]: v.侵犯(隐私等)；亵渎，污损(神圣之地)；
+12. peel [piːl]: 剥；脱落；剥(水果、蔬菜等的)皮；
+13. bald [bɔːld]: adj. 秃顶的；秃头的；
+14. league [ liːɡ]: n.联合会，联赛,等级，级别，水平.
+15. tongue [ tʌŋ]: n.舌头；舌；说话方式；有…说话方式的
+16. curtain [ˈkɜːrtn]: n.窗帘；
+17. beard [bɪrd]: n.胡须；须
+18. admit v.承认
+19. usher [ ˈʌʃər] n.引座员；(法院的)传达员，
+20. agency  n.机构；代理机构；
+21. palm [pɑːm] : n.手掌；棕榈树；棕榈；手心
+22. flashback [ˈflæʃbæk] n.(电影或戏剧的或往事的)闪回；倒叙；倒叙片段
+23. denoted [dɪˈnoʊtɪd] n.表示；标志；意指；象征；预示
+24. bullet [ ˈbʊlɪt] n.子弹；弹丸
+25. engine block  n. 发动机机体
+26. barely : adv. 几乎不；刚刚；刚好
+27. divorced [dɪˈvɔːrst] adj. 离异；离婚的
+28. widowed [ ˈwɪdoʊd] adj. 守寡的。
+29. slide [slaɪd] v.滑动
+30. pant  n.裤子
+31. pant leg ：裤腿
+32. sexual [ˈsekʃuəl] adj.性的；性别的；生殖的；性行为的；有性繁殖的
+33. twist [ twɪst] v.扭曲；扭转
+34. twisted : adj. 扭曲的；弯曲的；变形的；偏执的；怪僻的
+35. responsibility [rɪˌspɑːnsəˈbɪləti] n. 责任；负责；职责；义务
+36. fantasy [ ˈfæntəsi] n.梦想，幻想；想象；幻想作品；想象产物
+37. monogamy [məˈnɑːɡəmi] n.一夫一妻制；一夫一妻(制)；单配偶；单配性
+38. tricky [ˈtrɪki] adj.诡计多端的；难对付的
+39. anthropologically [anθrəpəˈlɒdʒɪkli] n.人类学；人类学上
+40. theory [ˈθiːəri] n.理论；
+41. put forth  提出（计划或建议）
+42. forth adv.向前, 向前方；
+43. greet v.打招呼；欢迎
+44. vacuum [ˈvækjuːm] n.真空；(用真空吸尘器所做的)清洁
+45. bristle [ˈbrɪsl] n.短而硬的毛发；刷子毛；刚毛
+46. Terrific [təˈrɪfɪk] adj.了不起的；极好的；巨大的；很大的；绝妙的；异乎寻常的
+47. ottoman [ˈɑːtəmən] n.箱式凳(箱子式的坐凳，有软垫)
+48. fan out  成扇形散开
+49. fan v.扇(风)；扇，吹(使火更旺)；煽起；激起
+50. raggedy [ˈrægədi] adj.邋遢的；破旧的；脏乱的
+51. kook [ kuːk] n.怪人；狂人
+52. madcap [ ˈmædkæp] adj.狂妄的；鲁莽的；不明智的
+53. gal [ɡæl] n.女孩；姑娘；女子
+54. grocery [ˈɡroʊsəri] n.杂货店；食品杂货店
+55. laundry [ ˈlɑːndri] n.洗衣店；洗衣物
+56. detergent [ dɪˈtɜːrdʒənt] n.洗涤剂；洗衣粉；去垢剂
+57. spout [spaʊt] n.喷口；(容器的)嘴；(喷出的)水柱，液体柱
+58. wonder v.想知道
+59. coaster [ˈkoʊstər] n.玻璃杯垫；
+60. bead [ biːd] n.(液体的)小滴；(有孔的)珠子；(玫瑰)念珠；
+61. condensation [ kɑːndenˈseɪʃn] n. 冷凝；(气体)凝结；凝结的水珠；(书等的)简缩
+62. inch [ɪntʃ] v.(使朝某方向)谨慎移动
+63. agent n.代理人，经纪人
+64. toss [ tɔːs] v.扔，抛，掷；(使)摇摆，挥动
+65. courtroom [ ˈkɔːrtruːm] n.法庭；审判室
+66. butt [ bʌt] n.屁股；
+67. double n.替身演员；
+68. moisturizer [ˈmɔɪstʃəraɪzər] n.润肤霜；润肤膏
+69. coupla ['kʌplə] n.几个
+70. raid the fridge 搜查冰箱
+71. raid [/reɪd/] v.对…进行突然袭击;进行奇袭;
+72. resentment  [/rɪˈzɛntmənt/] n.愤恨，不满;
+73. armload [/'ɑmˌloʊd/] n.（单臂或双臂）一抱之最大量
+74. scrub [/skrʌb/] v.用力擦洗，刷洗;取消（原有安排）;
+75. brush [/brʌʃ/] n.刷（子）
+76. hire [/ˈhaɪər/] v.雇用，临时雇佣;租用;
+77. robe [/roʊb/] n.睡袍;长袍;
+78. grim [/ɡrɪm/] adj.冷酷的，残忍的;严厉的;阴冷的;可怕的，讨厌的;
+79. clench [/klentʃ/] v. 抓紧，握紧;咬紧;
+80. fulfilled [/fʊlˈfɪld/] adj. 满足的，个人志向得以实现的;
+81. obligated  [/ˈɑblɪgeɪtɪd/] adj.有义务的;必须的;有责任的
+82. well up 涌出
+83. well v.涌出，冒出;（情感）迸发;
+84. passionately  adv.热情地，激昂地;
+85. lip [/lɪp/] n.嘴唇;
+86. sigh [/saɪ/] v.叹气;悲鸣;
+87. fall back 后退，退却
+88. absent adj.心不在焉的,缺席的;不在场的;
+89. unattainable adj.达不到的，无法取得的;可望而不可即;
+90. disturbing [/dɪˈstɜːrbɪŋ/] adj.引起烦恼的;
+91. crappy [/ˈkræpi] adj. 蹩脚的没价值的讨厌的;
+92. strew [/stru/] v.撒在…上(;散落于;
+93. reckless [ˈrɛklɪs] adj. 鲁莽的，不顾危险的；粗心大意的；满不在乎的；胆大妄为;
+94. haphazard [hæpˈhæzərd] adj. 偶然的，随意的；无计划的；任意的，胡乱的;
+96. manner [ˈmænɚ] n. 方式，方法，做法；态度，样子，举止；礼貌，规矩；风俗，习惯，惯例，生活方式;
 
-out of my league ：根本跟我不是一个世界的
+## sentences
 
-be aware of ：意为意识到，知道。
+ be of sb league ：超出sb的水平
 
-impending adj. 迫在眉睫的，即将发生的
+back sb up ：支持某人;
 
-doom n. 命运，厄运，死亡。主要指不利的，不好的。
+nothing guys ：一无是处的男人
 
-exclamation n. 惊叹，呼喊，感叹。
+be aware of ：意识到
 
-exclamation point n. 感叹号。
+be about to do sth：将要做什么事情
 
-violate vt. 违反，侵犯，冒犯
-
-league n. 联盟， 社团 v. 使...结盟
-
-detergent n. 洗涤剂，这个词绝对不是我第一次写出来了
-
-kook n. <美口>怪人，怪胎，疯子同义还有geek, nerd
-
-obligate vt. 使...有义务 adj. 有义务的
-
-spot someone/something 意为一下子注意到某人或某物
-
-back sb up 支持某人，给某人壮胆。
-
-be aware of : 意识到
-
-**I blow it!**
-
- Hard to tell
+be involved with : 和xx涉及，和xx联系在一起。
