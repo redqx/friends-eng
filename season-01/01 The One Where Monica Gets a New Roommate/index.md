@@ -4,9 +4,16 @@ title: The One Where Monica Gets a New Roommate
 
 
 
-# The One Where Monica Gets a New Roommate
+# 01.01.The One Where Monica Gets a New Roommate
 
 
+
+<div style="display: flex; justify-content: center; align-items: center;  margin: 0;">
+    <audio controls style="outline: none;">
+        <source src="./dialogue.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+</div>
 
 
 
@@ -595,7 +602,7 @@ Joey: Listen, while you're **on a roll**, if you feel like you gotta make like a
 
 > on a roll [ɑn e rol] n. 连连获胜;
 >
-> omelet [ˈɑməlɪt, ˈɑmlɪt] n. 煎蛋饼，煎蛋卷;
+> omelet [ˈɑmlɪt] n. 煎蛋饼，煎蛋卷;
 >
 > grimace [ˈɡrɪməs] vi. 扮怪相，做鬼脸;n. 鬼脸，怪相;痛苦的表情; 
 >
@@ -943,23 +950,15 @@ End
 
 
 
- 
-
-
-
-
-
 
 
 # Vocabulary
 
 
 
-
-
-
-
 ## A-Words
+
+
 
 <details>
 <summary>
@@ -974,6 +973,7 @@ Phoebe: Ooh! Oh! (She starts to <span style="color: red;">pluck</span> at the ai
 </summary>
 pluck [plʌk] vt. 采，摘;拔掉;鼓起（勇气等）;弹（乐器）; vi. 拉，拽;
 </details>
+
 <details>
 <summary>
     Ross gestures his <span style="color: red;">consent.</span>
@@ -988,6 +988,125 @@ consent [kənˈsent] n. 同意，许可;批文; v. 同意，允许;
 imitate [ˈɪmɪteɪt] vt. 模仿，效仿;仿造，伪造;
 </details>
 
+<details>
+<summary>
+    Rachel: C'mon Daddy, listen to me! It's like, it's like, all of my life, everyone has always told me, 'You're a shoe! You're a shoe, you're a shoe, you're a shoe!'. And today I just stopped and I said, 'What if I don't wanna be a shoe? What if I wanna be a- a purse, y'know? Or a- or a hat! No, I'm not saying I want you to buy me a hat, I'm saying I am a ha- It's a <span style="color: red;">metaphor</span>, Daddy!  the characters) Tuna or egg salad?  Decide!consent.
+</summary>
+metaphor [ˈmetəfər] n. 隐喻，暗喻;象征;
+</details>
+
+<details>
+<summary>
+    Phoebe: (<span style="color: red;">grins</span>  and walks to the kitchen and says to Chandler and Joey.) I helped!
+</summary>
+grin [ɡrɪn] v. 露齿而笑，咧嘴大笑;
+</details>
+
+<details>
+<summary>
+   Chandler: Please don't do that again, it's a <span style="color: red;">horrible</span> sound.
+</summary>
+horrible [ˈhɔːrəbl] adj. 讨厌的;令人震惊的;极严重的;
+</details>
+
+<details>
+<summary>
+   Ross: (<span style="color: red;">choked</span> voice) That'd be good...
+</summary>
+choked [tʃoʊkt]  adj. 心烦意乱，愤怒，生气（而难以说出话来）;
+</details>
+
+<details>
+<summary>
+   Monica: (<span style="color: red;">horrified</span>) Really?
+</summary>
+horrified [ˈhɔrəˌfaɪd] adj. 惊悸的，带有恐怖感的，惊骇的;
+</details>
+
+<details>
+<summary>
+   Ross's Apartment, the guys are there <span style="color: red;">assembling</span> furniture.
+</summary>
+assemble [əˈsembl] v. 聚集，收集;组装;
+</details>
+
+<details>
+<summary>
+   Ross: (<span style="color: red;">squatting</span> and reading the instructions) I'm supposed to attach a brackety thing to the side things, using a bunch of these little worm guys. I have no brackety thing, I see no whim guys whatsoever and- I cannot feel my legs.
+</summary>
+squat [skwɑt] vi. 蹲，蹲伏;擅自占用土地;依法在政府公地上定居;〈口〉坐;
+</details>
+
+<details>
+<summary>
+   Ross: Chandler: I would have to say that is an 'L'-shaped <span style="color: red;">bracket</span>.
+</summary>
+bracket [ˈbrækɪt]  n. 括号;范围，等级;支架; v. 用括弧括上;把…相提并论;
+</details>
+
+<details>
+<summary>
+   Ross: (<span style="color: red;">clutching</span> a beer can and <span style="color: red;">sniffing</span>) This was Carol's favorite beer. She always drank it out of the can, I should have known.Ross: Chandler: I would have to say that is an 'L'-shaped 
+</summary>
+clutch [klʌtʃ] v. 紧握，抱紧;<br>
+sniff [snɪf]  vt. 鄙视地说;嗅;深深吸入;发现;忿忿不平地说; n. 吸气，擤鼻声;一股气味;
+</details>
+
+<details>
+<summary>
+   Chandler: You must stop! (Chandler hits what he is working on with a hammer and it <span style="color: red;">collapses</span>.)
+</summary>
+collapse [kəˈlæps] v. （突然）倒塌;崩溃，瓦解;晕倒;躺下放松; n. 倒闭;倒塌;晕倒;暴跌;
+</details>
+
+<details>
+<summary>
+    Ross: (<span style="color: red;">scornful</span>) Grab a spoon. Do you know how long it's been since I've grabbed a spoon? Do the words 'Billy, don't be a hero' mean anything to you?.)
+</summary>
+scornful [ˈskɔːrnfl] adj. 鄙视的，轻蔑的;傲慢的;〈罕〉当做笑柄的;
+</details>
+
+<details>
+<summary>
+    Joey: Listen, while you're on a roll, if you feel like you gotta make like a Western omelet or something...  Although actually I'm really not that hungry...(Joey and Chandler taste the coffee, <span style="color: red;">grimace</span>, and pour it into a plant pot.) 
+</summary>
+grimace [ˈɡrɪməs] vi. 扮怪相，做鬼脸;n. 鬼脸，怪相;痛苦的表情;
+</details>
+
+<details>
+<summary>
+   Joey: I will not <span style="color: red;">take this abuse</span>. (Walks to the door and opens it to leave.)
+</summary>
+take this abuse 接受这种虐待
+</details>
+
+<details>
+<summary>
+    You're right, I'm sorry. (<span style="color: red;">Burst into</span> song and dances out of the door.) "Once I was a wooden boy, a little wooden boy..."
+</summary>
+Burst into    突然…起来(尤指唱歌、哭、笑等)  ;突然进入（某种状态）;
+</details>
+
+<details>
+<summary>
+    I can see that. You look like you slept with a <span style="color: red;">hanger</span> in your mouth.
+</summary>
+    hanger [ˈhæŋɚ] n. 衣架;挂钩;挂东西的人;绞刑执行者;
+</details>
+
+<details>
+<summary>
+    Monica: Is it me? Is it like I have some sort of <span style="color: red;">beacon</span> that only dogs and men with severe emotional problems can hear?
+</summary>
+    beacon [ˈbikən] n. 灯塔，信号浮标;烽火;指路明灯;警标，界标;
+</details>
+
+<details>
+<summary>
+    Monica <span style="color: red;">stomps</span> on Paul's watch and goes into her room.
+</summary>
+    stomp [stɑmp] v. 跺脚，重踩;践踏;
+</details>
 
 
 ## B-Words
@@ -1012,89 +1131,88 @@ imitate [ˈɪmɪteɪt] vt. 模仿，效仿;仿造，伪造;
 15. lesbian [ˈlezbiən] n. 女同性恋者;莱斯博斯岛人;
 16. fixate [ˈfɪkˌset] v. 视线移向;注视;使固定;
 17. hysterical [hɪˈsterɪkl] adj. 情绪异常激动的;歇斯底里般的;癔病的;癔病性;
-19. Strip joint [strɪp dʒɔɪnt] n. 脱衣舞俱乐部;
-20. hormone ['hɔmoʊn] n. <生化>（刺激生长的）荷尔蒙，激素;
-21. hammer [ˈhæmər] n. 铁锤，榔头;链球;（拍卖时用的）木槌;音槌;
-22. bridesmaid [ˈbraɪdzmeɪd] n. 女傧相，伴娘;
-23. freak out [frik aʊt] v. [俚]（因吸毒等而）产生幻觉;（使）极度兴奋;[口语]行为反常;
-24. drift apart [drɪft əˈpɑrt] (两者）漂移，疏远;
-26. fall off ]美[fɔl ɔf]  减少;跌落;变坏;变瘦;
-27. metaphor [ˈmetəfər] n. 隐喻，暗喻;象征;
-28. establish [ɪˈstæblɪʃ] v. 证实;使被接受;创建;建立（尤指正式关系）;
-29. calm [kɑːm] adj. 镇静的;稳定的;风平浪静的，无风的; v. 使平静;镇痛，止痒; n. 平静，宁静;
-30. grin [ɡrɪn] v. 露齿而笑，咧嘴大笑;
-31. hit on :勾搭，撩妹。
-32. horrible [ˈhɔːrəbl] adj. 讨厌的;令人震惊的;极严重的;
-33. over the intercom : 通过对讲机
-34. choked [tʃoʊkt]  adj. 心烦意乱，愤怒，生气（而难以说出话来）;
-35. horrified [ˈhɔrəˌfaɪd] adj. 惊悸的，带有恐怖感的，惊骇的;
-36. line up : 排列成行。
-37. pull out 拔出;退出;（使）离开;（火车）驶出
-38. eyelash [ˈaɪˌlæʃ] n. 睫毛;
-39. change : 换衣服。
-40. rub [rʌb] v. 摩擦，涂抹;（使）加深痛苦;惹恼;
-41. yell [jel] v. 叫喊，吼叫;
-42. be headed for v.朝…方向去;
-43. furniture n.家具;
-44. assemble [əˈsembl] v. 聚集，收集;组装;
-45. squat [skwɑt] vi. 蹲，蹲伏;擅自占用土地;依法在政府公地上定居;〈口〉坐;
-46. bookcase [ˈbʊkˌkes] n. 书橱，书架，书柜;
-47. bracket [ˈbrækɪt]  n. 括号;范围，等级;支架; v. 用括弧括上;把…相提并论;
-48. clutch [klʌtʃ] v. 紧握，抱紧;
-49. sniff [snɪf]  vt. 鄙视地说;嗅;深深吸入;发现;忿忿不平地说; n. 吸气，擤鼻声;一股气味;
-50. spoil [spɔɪl] v. 弄糟;溺爱;犒赏;善待;(食物)变坏;使(选票)无效;
-51. stereo [ˈsterioʊ] n. 立体音响
-52. screw [skruː] vt. 〈俚〉占便宜，诈骗; 用螺丝拧紧;扭曲（某人的面孔）;vi. 扭转，扭歪;旋紧;（和某人）性交;
-53. idiot [ˈɪdiət] n. 傻瓜，笨蛋;白痴;
-54. he's such a mess : 他真是一团糟
-55. accidentally [ˌæksəˈdɛntəli] adv. 偶然地;
-56. shred [ʃred] vt.& vi. 撕碎，切碎;用撕毁机撕毁（文件）; n. 碎片;破布;少量;
-57. bath towel : 浴巾
-58. towel n.毛巾，手巾;纸巾; v.用毛巾擦干身体;
-59. steer clear of you 避开你
-60. dial [ˈdaɪəl] v. 拨（电话号码）; n. 钟面，表盘;调节器;拨号盘;
-61. incredibly [ɪnˈkredəbli] adv. 难以置信地，很，极为;
-62. pace [peɪs]  v. 踱步;确定速度;调整节奏;步测;放稳步调; n. 速度;节奏;步速;步幅;迅速出现;
-63. collapse [kəˈlæps] v. （突然）倒塌;崩溃，瓦解;晕倒;躺下放松; n. 倒闭;倒塌;晕倒;暴跌;
-64. rip [rɪp] vt.& vi. 扯破，撕坏; n. 裂口;废物;[美国俚语]偷窃;浪子;
-65. horny [/ˈhɔːrni/] adj. 性兴奋的；角质的；性感的；粗硬的；角质物制的；妖媚的
-66. takes a sip of her drink ：喝了一小口她的饮料
-67. perform sexually ：执行性行为
-68. spit out ：吐出
-69. in shock ： 震惊
-70. smash [smæʃ] v. 打碎;撞击;猛击;扣球; n. 打碎;撞车;扣球;十分走红的歌曲;
-71. scornful [ˈskɔːrnfl] adj. 鄙视的，轻蔑的;傲慢的;〈罕〉当做笑柄的;
-72. screamer ['skrimə] n. 尖声叫喊的人，<美俚>（报刊上的）惊人的标题;
-73. gaze [ɡeɪz] vi. 凝视，注视; n. 凝视，端详;
-74. gaze out   遥望;
-75. invade [ɪnˈveɪd] vt.& vi. 侵入，侵略;进行侵略;蜂拥而入，挤满;（疾病，声音等）袭来，侵袭;
-76. on a roll [ɑn e rol] n. 连连获胜;
-77. omelet [ˈɑməlɪt, ˈɑmlɪt] n. 煎蛋饼，煎蛋卷;
-78. grimace [ˈɡrɪməs] vi. 扮怪相，做鬼脸;n. 鬼脸，怪相;痛苦的表情;
-79. plant pot : 花盆
-80. take this abuse 接受这种虐待
-81. abuse [əˈbjuːz] n. 虐待，辱骂;滥用; v. 滥用;虐待，辱骂;
-82. Burst into    突然…起来(尤指唱歌、哭、笑等)  ;突然进入（某种状态）;
-83. hanger [ˈhæŋɚ] n. 衣架;挂钩;挂东西的人;绞刑执行者;
-84. sophisticated [səˈfɪstɪkeɪtɪd] adj. 复杂的;精致的;富有经验的;深奥微妙的;
-85. beacon [ˈbikən] n. 灯塔，信号浮标;烽火;指路明灯;警标，界标;
-86. be  laughed out of 被嘲笑
-87. upbeat [ˈʌpˌbit] adj. 积极乐观的;愉快的，高兴的;
-88. be  spread out on the table : 摊开摊在桌子上
-89. scissors ˈsɪzərz] n. 剪刀;两腿前后错跃;
-90. live off  依靠...生活；以吃...为生;
-91. prison [ˈprɪzn] n. 监狱，看守所;
-92. albino [ælˈbaɪnoʊ] n. 白化病者，白化变种;
-93. windshield [ˈwɪndˌʃild] n. （摩托车的）挡风玻璃;<美>（汽车的）挡风玻璃;
-94. aromatherapy [əˌroʊməˈθerəpi] n. 芳香疗法; 推拿
-95. parachute [ˈpærəʃuːt] n. 降落伞;降落伞状物;[植]风散种子; vi. 跳伞;
-96. retailer [ˈritelɚ] n. 零售商，零售店;
-97. stomp [stɑmp] v. 跺脚，重踩;践踏;
-98. split [splɪt] vt. 分裂;分开;<俚>（迅速）离开;分担; n. 划分;分歧;裂缝;劈叉;
-99. crush on 热恋……，迷恋……（尤指对不大熟识的人）
-100. geeky [ ˈɡiːki] adj. <俚>令人讨厌的;
-101. intense [ɪnˈtens] adj. 强烈的;紧张的，激烈的;热切的;洞悉一切的;
-102. vulnerability [ˌvʌlnərə'bɪləti] n. 弱点，攻击;易伤性;致命性;脆弱性;
+18. Strip joint [strɪp dʒɔɪnt] n. 脱衣舞俱乐部;
+19. hormone ['hɔmoʊn] n. <生化>（刺激生长的）荷尔蒙，激素;
+20. hammer [ˈhæmər] n. 铁锤，榔头;链球;（拍卖时用的）木槌;音槌;
+21. bridesmaid [ˈbraɪdzmeɪd] n. 女傧相，伴娘;
+22. freak out [frik aʊt] v. [俚]（因吸毒等而）产生幻觉;（使）极度兴奋;[口语]行为反常;
+23. drift apart [drɪft əˈpɑrt] (两者）漂移，疏远;
+24. fall off  [fɔl ɔf]  减少;跌落;变坏;变瘦;
+25. establish [ɪˈstæblɪʃ] v. 证实;使被接受;创建;建立（尤指正式关系）;
+26. calm [kɑːm] adj. 镇静的;稳定的;风平浪静的，无风的; v. 使平静;镇痛，止痒; n. 平静，宁静;
+27. grin [ɡrɪn] v. 露齿而笑，咧嘴大笑;
+28. hit on :勾搭，撩妹。
+29. horrible [ˈhɔːrəbl] adj. 讨厌的;令人震惊的;极严重的;
+30. over the intercom : 通过对讲机
+31. choked [tʃoʊkt]  adj. 心烦意乱，愤怒，生气（而难以说出话来）;
+32. horrified [ˈhɔrəˌfaɪd] adj. 惊悸的，带有恐怖感的，惊骇的;
+33. line up : 排列成行。
+34. pull out 拔出;退出;（使）离开;（火车）驶出
+35. eyelash [ˈaɪˌlæʃ] n. 睫毛;
+36. change : 换衣服。
+37. rub [rʌb] v. 摩擦，涂抹;（使）加深痛苦;惹恼;
+38. yell [jel] v. 叫喊，吼叫;
+39. be headed for v.朝…方向去;
+40. furniture n.家具;
+41. assemble [əˈsembl] v. 聚集，收集;组装;
+42. squat [skwɑt] vi. 蹲，蹲伏;擅自占用土地;依法在政府公地上定居;〈口〉坐;
+43. bookcase [ˈbʊkˌkes] n. 书橱，书架，书柜;
+44. bracket [ˈbrækɪt]  n. 括号;范围，等级;支架; v. 用括弧括上;把…相提并论;
+45. **clutch [klʌtʃ] v. 紧握，抱紧;**
+46. sniff [snɪf]  vt. 鄙视地说;嗅;深深吸入;发现;忿忿不平地说; n. 吸气，擤鼻声;一股气味;
+47. spoil [spɔɪl] v. 弄糟;溺爱;犒赏;善待;(食物)变坏;使(选票)无效;
+48. stereo [ˈsterioʊ] n. 立体音响
+49. screw [skruː] vt. 〈俚〉占便宜，诈骗; 用螺丝拧紧;扭曲（某人的面孔）;vi. 扭转，扭歪;旋紧;（和某人）性交;
+50. idiot [ˈɪdiət] n. 傻瓜，笨蛋;白痴;
+51. he's such a mess : 他真是一团糟
+52. accidentally [ˌæksəˈdɛntəli] adv. 偶然地;
+53. shred [ʃred] vt.& vi. 撕碎，切碎;用撕毁机撕毁（文件）; n. 碎片;破布;少量;
+54. bath towel : 浴巾
+55. towel n.毛巾，手巾;纸巾; v.用毛巾擦干身体;
+56. steer clear of you 避开你
+57. **dial [ˈdaɪəl] v. 拨（电话号码）; n. 钟面，表盘;调节器;拨号盘;**
+58. incredibly [ɪnˈkredəbli] adv. 难以置信地，很，极为;
+59. pace [peɪs]  v. 踱步;确定速度;调整节奏;步测;放稳步调; n. 速度;节奏;步速;步幅;迅速出现;
+60. **collapse [kəˈlæps] v. （突然）倒塌;崩溃，瓦解;晕倒;躺下放松; n. 倒闭;倒塌;晕倒;暴跌;**
+61. rip [rɪp] vt.& vi. 扯破，撕坏; n. 裂口;废物;[美国俚语]偷窃;浪子;
+62. horny [/ˈhɔːrni/] adj. 性兴奋的；角质的；性感的；粗硬的；角质物制的；妖媚的
+63. takes a sip of her drink ：喝了一小口她的饮料
+64. perform sexually ：执行性行为
+65. spit out ：吐出
+66. in shock ： 震惊
+67. **smash [smæʃ] v. 打碎;撞击;猛击;扣球; n. 打碎;撞车;扣球;十分走红的歌曲;**
+68. **scornful [ˈskɔːrnfl] adj. 鄙视的，轻蔑的;傲慢的;〈罕〉当做笑柄的;**
+69. screamer ['skrimə] n. 尖声叫喊的人，<美俚>（报刊上的）惊人的标题;
+70. gaze [ɡeɪz] vi. 凝视，注视; n. 凝视，端详;
+71. gaze out   遥望;
+72. invade [ɪnˈveɪd] vt.& vi. 侵入，侵略;进行侵略;蜂拥而入，挤满;（疾病，声音等）袭来，侵袭;
+73. on a roll [ɑn e rol] n. 连连获胜;
+74. omelet [ˈɑməlɪt, ˈɑmlɪt] n. 煎蛋饼，煎蛋卷;
+75. **grimace [ˈɡrɪməs] vi. 扮怪相，做鬼脸;n. 鬼脸，怪相;痛苦的表情;**
+76. plant pot : 花盆
+77. take this abuse 接受这种虐待
+78. abuse [əˈbjuːz] n. 虐待，辱骂;滥用; v. 滥用;虐待，辱骂;
+79. **Burst into    突然…起来(尤指唱歌、哭、笑等)  ;突然进入（某种状态）;**
+80. hanger [ˈhæŋɚ] n. 衣架;挂钩;挂东西的人;绞刑执行者;
+81. **sophisticated [səˈfɪstɪkeɪtɪd] adj. 复杂的;精致的;富有经验的;深奥微妙的;**
+82. beacon [ˈbikən] n. 灯塔，信号浮标;烽火;指路明灯;警标，界标;
+83. be  laughed out of 被嘲笑
+84. upbeat [ˈʌpˌbit] adj. 积极乐观的;愉快的，高兴的;
+85. be  spread out on the table : 摊开摊在桌子上
+86. scissors ˈsɪzərz] n. 剪刀;两腿前后错跃;
+87. live off  依靠...生活；以吃...为生;
+88. prison [ˈprɪzn] n. 监狱，看守所;
+89. albino [ælˈbaɪnoʊ] n. 白化病者，白化变种;
+90. windshield [ˈwɪndˌʃild] n. （摩托车的）挡风玻璃;<美>（汽车的）挡风玻璃;
+91. aromatherapy [əˌroʊməˈθerəpi] n. 芳香疗法; 推拿
+92. parachute [ˈpærəʃuːt] n. 降落伞;降落伞状物;[植]风散种子; vi. 跳伞;
+93. retailer [ˈritelɚ] n. 零售商，零售店;
+94. **stomp [stɑmp] v. 跺脚，重踩;践踏;**
+95. split [splɪt] vt. 分裂;分开;<俚>（迅速）离开;分担; n. 划分;分歧;裂缝;劈叉;
+96. crush on 热恋……，迷恋……（尤指对不大熟识的人）
+97. geeky [ ˈɡiːki] adj. <俚>令人讨厌的;
+98. **intense [ɪnˈtens] adj. 强烈的;紧张的，激烈的;热切的;洞悉一切的;**
+99. **vulnerability [ˌvʌlnərə'bɪləti] n. 弱点，攻击;易伤性;致命性;脆弱性;**
 103. butt [bʌt] n. 烟头;屁股;柄;大桶;笑柄;
 
 
